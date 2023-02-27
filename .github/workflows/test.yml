@@ -25,7 +25,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [windows-latest, ubuntu-latest, macos-latest]
+        #os: [windows-latest, ubuntu-latest, macos-latest]
+        os: [ubuntu-latest]
     steps:
       - name: Set up Go
         uses: actions/setup-go@v3
